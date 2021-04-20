@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">EndofRance</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse text-center navbar-collapse bg-warning w-100" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html#index">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="endo.html#endo">Endométriose</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              En savoir plus 
+            </a>
+            <ul class="dropdown-menu bg-warning" ia-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="symptomes.html#symptomes">Symptomes</a></li>
+              <li><a class="dropdown-item" href="diagnostic.html#diagnostic">Diagnostic</a></li>
+              <li><a class="dropdown-item" href="traitements.html#traitements">Traitements</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item  bg-warning" href="evenements.html#evenement">Evénements</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-danger" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner h-100">
+      <div class="carousel-item active">
+        <img src="images/endofrance.png" class="d-block w-100" alt="endofrance" height="600px">
+      </div>
+      <div class="carousel-item">
+        <img src="images/ventre.jpg" class="d-block w-100" alt="ventre" height="600px">
+      </div>
+      <div class="carousel-item">
+        <img src="images/moisendo.jpg" class="d-block w-100" alt="affiche" height="600px">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card-index text-center rounded-circle">
+        <img src="images/maux-de-ventre.jpg" class="card-img-index shadow-sm p-3 mb-5 bg-body rounded" alt="...">
+        <div class="card-body-index rounded-circle">
+          <h5 class="card-title-index">Qu'est-ce-que l'endométriose ?</h5>
+          <p class="card-text-index">Une maladie inflammatoire chronique, invalidante. Très mal diagnostiquée aujourd'hui, entre 7 à 10 ans de retard de diagnostique.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-index text-center rounded-circle">
+        <img src="images/ventre.jpg" class="card-img-index shadow-sm p-3 mb-5 bg-body rounded" alt="...">
+        <div class="card-body-index rounded-circle">
+          <h5 class="card-title-index">Quels sont les symptômes ?</h5>
+          <p class="card-text-index">L'endométriose engendre des douleurs pelviennes dans la majorité des cas, mais peut aussi provoqué des troubles urinaires, des troubles disgestifs,des dysménorrhées et des dyspareunies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-index text-center rounded-circle">
+        <img src="images/medicament.jpg" class="card-img-index shadow-sm p-3 mb-5 bg-body rounded" alt="...">
+        <div class="card-body-index rounded-circle">
+          <h5 class="card-title-index">Quels sont les traitements ?</h5>
+          <p class="card-text-index">A ce jour aucuns traitements curatifs n'existe, mais la mise en place d'une pillule est nécessaire, voir meme de traitements chirurgicaux.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-index text-center rounded-circle">
+        <img src="images/marche.jpg" class="card-img-index shadow-sm p-3 mb-5 bg-body rounded" alt="...">
+        <div class="card-body-index rounded-circle">
+          <h5 class="card-title-index">Evènements</h5>
+          <p class="card-text-index">De nombeureux évènements ont lieux tout au long de l'année afin d'informer, de soutenir et d'agir.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+       
+</body>
+<footer class="footer text-center text-lg-start" style="background-color:#fcfad9">
+  <div class="card-foot">
+    <div class="row-foot">
+      <div class="col-sm-3">
+        <div class="card-foot">
+          <div class="card-body-foot">
+            <h5 class="card-title-foot text-center">Contact</h5>
+            <p class="card-text-foot">Pour tout renseignement veuillez cliquer sur ce bouton</p>
+            <a href="contact.html#contact" class="btn btn-danger btn-foot">Contacter-nous</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card-foot">
+          <div class="card-body-foot">
+            <h5 class="card-title-foot text-center">Devenir Bénévole</h5>
+            <p class="card-text-foot">Apporter votre aide à notre épuique en nous rejoingnant</p>
+            <a href="#" class="btn btn-danger btn-foot">Aider-nous</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card-foot">
+          <div class="card-body-foot">
+            <h5 class="card-title-foot text-center">Adhérer</h5>
+            <p class="card-text-foot">Intégrer notre communauté , pour soutenir , agir , s'unir et être informée</p>
+            <a href="#" class="btn btn-danger btn-foot">Rejoingner-nous</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card-foot">
+          <div class="card-body-foot">
+            <h5 class="card-title-foot text-center">Faire un don</h5>
+            <p class="card-text-foot">Participer activement à la recherche pour la lutte contre l'endométriose ! </p>
+            <a href="#" class="btn btn-danger btn-foot">C'est parti !</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+  <!-- Copyright -->
+  <div class="text-center p-3 bg-warning">
+    © 2021 Copyright:
+    <a class="text-dark" href="https://github.com/cecilia948/ECF1.git">https://github.com/cecilia948/ECF1.git</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</html>

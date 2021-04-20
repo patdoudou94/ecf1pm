@@ -1,0 +1,324 @@
+/* Css General */
+
+
+.btn-danger {
+    margin: 5%;
+}
+
+.card-header .card-footer { 
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+p{
+    text-align: center;
+}
+
+
+/* Autre Css */
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Css navbar */
+
+.navbar {
+    font-weight: 700;
+}
+
+.collapse {
+    z-index: 2;
+}
+
+.dropdown-item {
+    font-weight: 700;
+}
+
+
+
+/* Css footer */
+
+
+.footer {
+    font-weight: 700;
+}
+
+
+.text-footer-2{
+    padding-top: 5%;
+}
+
+
+.card-body-foot {
+    background: #fcfad9;
+    border: none;
+}
+
+.btn-foot {
+   margin: auto;
+}
+
+.row-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+
+
+/* Css page index.thml */
+
+.carousel-inner{
+    height: 800px;
+    margin-top: 5%;
+}
+
+.carousel-inner > .carousel-item {
+    height: 600px;
+}
+
+.card-index {
+    margin-bottom: 5%;
+    background: #fcfad9;
+}
+
+
+.card-img-index {
+    width: 70%;
+    height: 70%;
+}
+
+
+/* Css page endo */
+
+
+#video {
+    padding-top: 30px;
+}
+
+.card-text-dessin {
+    color: red;
+    font-weight: 500;
+}
+
+.row-dessin {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-dessin > div[class*='col-'] {
+    display: flex;
+    margin : 3%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Css page symptomes */
+
+
+.text-symptomes{
+    margin: 5%;
+}
+
+.text-symptomes1{
+    margin: 5%;
+}
+
+.card-symptomes{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Css page diagnostic*/
+
+
+.container-diag2 {
+    margin: 5%;
+}
+
+.card-diag {
+    margin: 5%;
+}
+
+.card-img-top {
+    display: flex;
+
+}
+
+.container-card-diag {
+    display: flex;
+   flex-wrap: wrap;
+    margin: 0;
+}
+.card-diag2 {
+    margin: 5%;
+    width: 100%;
+}    
+.row-diag {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-diag > div[class*='col-'] {
+    display: flex;
+    height: 700px ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row-diag2 {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-diag2 > div[class*='col-'] {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row-diag3 {
+    margin-left: 35%;
+    margin-right: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-diag3 > div[class*='col-'] {
+    display: flex;
+    /*margin : 3%;
+    justify-content: center;*/
+    align-items: center;
+}
+
+
+/* Css page traitement */
+
+
+.card-traitement {
+    margin: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+/* Css page evenements */
+
+
+.container-event {
+   margin: 5%;
+}
+
+.container-convention {
+    margin: 5%;
+}
+
+.card-footer-connvention {
+    color: white;
+    font-weight: 500;
+}
+
+.card-event {
+    margin: 5%;
+    margin-left: 5%;
+}
+
+.card-photo1 {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.card-photo2 {
+    margin: 5%;
+    margin-left: 25%;
+}
+
+.card-text-signature {
+    font-weight: 200;
+}
+
+.card-event2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container-signature{
+    margin-left: 5%;
+}
+
+.row-event{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap
+}
+
+
+
+
+
+/* Css page contact */
+
+
+.container-form {
+    margin: 5%;
+}
+
+.title-form {
+    margin-top: 5%;
+}
+
+
+/* responsive pour les petits écrans et tablettes*/
+
+
+@media all and (max-width: 1024px) {
+    #carousel{
+        display: none;
+    }
+
+    .card-text-foot {
+        display: none;
+    }
+
+    .card-title-foot {
+        display: none;
+    }
+
+    #video {
+        width: 100%;
+    }
+
+    .card-dessin {
+        width: 100%;
+    }
+
+    .card-body-dessin {
+       margin-left: 20%;
+    }
+
+    .card-img-dessin {
+       margin: 15%;
+    }
+
+    .container-signature {
+        display: none;
+    }
+    
+    .card-diag2 {
+        width: 100%;
+    }
+}
